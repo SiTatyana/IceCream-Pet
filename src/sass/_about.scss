@@ -1,0 +1,179 @@
+// В этом файле работает Паша
+.about {
+  padding-top: 40px;
+  padding-bottom: 40px;
+
+  background-color: #fff5f6;
+  background-image: url(../images/about/img/about-bg-img_sm.png);
+  background-position: 0 574px;
+  background-size: contain;
+  background-repeat: no-repeat;
+
+  &__subtitle {
+    margin-bottom: 15px;
+
+    font-family: 'Titan One';
+    font-style: normal;
+
+    font-size: 18px;
+    line-height: 1.16;
+
+    text-align: center;
+    text-transform: uppercase;
+
+    color: $secondaryColor;
+  }
+  &__title {
+    margin-bottom: 32px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    
+
+    font-family: 'Titan One';
+    font-style: normal;
+
+    font-size: 34px;
+    line-height: 1.14;
+
+    text-align: center;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+
+    color: $accentColor;
+  }
+  &__img {
+    margin-bottom: 40px;
+    width: 100%;
+  }
+}
+
+.about__descr {
+  &-container {
+    width: 220px;
+  }
+
+  &-title {
+    margin-bottom: 40px;
+
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 1.62;
+
+    color: $fontBlack;
+  }
+
+  &-text {
+    margin-bottom: 20px;
+
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 1.62;
+
+    color: $fontGray;
+  }
+
+  &-text-part {
+    display: inline-block;
+    margin-top: 20px;
+  }
+}
+
+// ABOUT BUTTON
+
+.about-btn {
+  outline: 1px solid green;
+
+  margin-top: 64px;
+  min-width: 176px;
+  height: 44px;
+
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.28;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  color: $accentColor;
+  background-color: $fontWhite;
+  border-radius: 22px;
+  border-color: transparent;
+
+  &__text {
+    display: inline-block;
+    margin-right: 10px;
+  }
+
+  &__arrow {
+    stroke: $accentColor;
+  }
+}
+
+// ABOUT-LIST
+
+// .about-list {
+//   &__item::before {
+//     margin-bottom: 16px;
+//     content: '';
+//     display: block;
+
+//     height: 50px;
+//     background: transparent;
+//   }
+
+//   &__item:nth-child(1)::before {
+//     width: 33px;
+//     background-image: url(../images/about/icons/about-icon1.png);
+//   }
+//   &__item:nth-child(2)::before {
+//     width: 50px;
+//     background-image: url(../images/about/icons/about-icon2.png);
+//   }
+//   &__item:nth-child(3)::before {
+//     width: 44px;
+//     background-image: url(../images/about/icons/about-icon3.png);
+//   }
+
+//   &__item:not(:last-child) {
+//     margin-bottom: 32px;
+//   }
+//   &__descr-title {
+//     margin-bottom: 16px;
+
+//     font-family: 'Titan One';
+//     font-style: normal;
+
+//     font-size: 36px;
+//     line-height: 1.13;
+//     letter-spacing: 0.04em;
+//     text-transform: uppercase;
+
+//     color: $accentColor;
+//   }
+
+//   &__descr-title::before {
+//     margin-bottom: 16px;
+//     content: '';
+//     display: block;
+
+//     width: 33px;
+//     height: 50px;
+//     background-size: contain;
+//   }
+//   &__descr-title:nth-child(n):before {
+//     background-image: url(../images/about/icons/about-icon1.png);
+//   }
+//   &__descr-title:nth-child(n + 1):before {
+//     background-image: url(../images/about/icons/about-icon2.png);
+//   }
+//   &__descr-text {
+//     font-style: normal;
+//     font-weight: 700;
+//     font-size: 12px;
+//     line-height: 1.7;
+
+//     color: $fontBlack;
+//   }
+// }

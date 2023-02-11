@@ -1,0 +1,74 @@
+// В этом файле работает Дима Шегельский
+
+
+.footer__title {
+    margin-top: 48px;
+    margin-bottom: 14px;
+
+    font-family: 'Titan One';
+    font-size: 18px;
+    line-height: 21px;
+    text-transform: uppercase;
+    
+    color: #FFA5BA;
+}
+
+.footer__subtitle {
+    font-family: 'Titan One';
+    font-size: 34px;
+    line-height: 39px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+
+    color: #D41443;
+}
+.social-media__list{
+    display: flex;
+    justify-content: flex-end;
+    margin: 40px 0;
+}
+
+.social-media__link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background-color: #FEA5BB;
+}
+
+.social-media__item:not(:last-child) {
+    margin-right: 28px;
+}
+
+.contact {
+    margin-bottom: 40px;
+    font-family: 'DM Sans';
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 1.83;
+    text-align: right;
+    
+    color: #000000;
+}
+.contact__link {
+    text-decoration: none;
+    color: #D41443;
+}
+
+.wrapper {
+    padding: 16px 20px 20px 20px;
+    max-width: 480px;
+
+    font-family: 'DM Sans';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.5;
+    text-align: center;
+    
+    color: #907E82;
+    border-top: 1px solid #E1E1E1;
+    
+}
